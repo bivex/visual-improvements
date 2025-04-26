@@ -1,0 +1,44 @@
+Windows Registry Editor Version 5.00
+
+; Enhanced ClearType Settings
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"FontSmoothing"="2"
+"FontSmoothingType"=dword:00000002
+"FontSmoothingGamma"=dword:00000578
+"FontSmoothingOrientation"=dword:00000001
+"FontSmoothingContrast"=dword:0000064C
+
+; Improved Font Rendering
+[HKEY_CURRENT_USER\Software\Microsoft\Avalon.Graphics\DISPLAY1]
+"ClearTypeLevel"=dword:00000064
+"EnhancedContrastLevel"=dword:0000003C
+"GammaLevel"=dword:00000064
+"GrayscaleEnhancedContrastLevel"=dword:0000003C
+"PixelStructure"=dword:00000002
+"TextContrastLevel"=dword:00000006
+
+; Advanced ClearType Tuner Settings
+[HKEY_CURRENT_USER\Software\Microsoft\Avalon.Graphics]
+"ClearTypeHintingMode"=dword:00000002
+"EnableTransformedFontAA"=dword:00000001
+
+; Improve DPI scaling
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"Win8DpiScaling"=dword:00000001
+"LogPixels"=dword:00000096
+
+; Enhanced text rendering
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontLink\SystemLink]
+"Segoe UI"="TAHOMA.TTF,Tahoma"
+
+; Improve display perception
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects]
+"VisualFXSetting"=dword:00000003
+
+; DirectWrite rendering improvements
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontDPI]
+"LogPixels"=dword:00000060
+
+; Font Substitutions
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontSubstitutes]
+"Segoe UI"="Tahoma" 
